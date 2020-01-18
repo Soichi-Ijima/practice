@@ -1,0 +1,12 @@
+$(function(){
+    setTimeout(function(){
+        $('#section-1').addClass("show");
+    },0);
+    setTimeout(function(){
+        $('#section-2').addClass("show");
+    },500);
+    setTimeout(function(){
+        $('#section-3').addClass("show");
+    },1000);
+    /*$('body').fadeIn();*/
+});
